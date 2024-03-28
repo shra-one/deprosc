@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link href="./assets/css/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/slick.css" />
+
+    <link rel="stylesheet" href="./assets/css/app.css" />
+
+    <title>Food For Life</title>
+  </head>
+
+  <body>
+    <div id="app" class="app">
+      <div class="app-wrapper">
+        <a href="#" role="button" class="btn btn-primary btn--fixedCTA">
+          <span class="btn-label">Donate Now</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.9945 11.5204C18.7902 11.3629 18.5559 11.2486 18.3059 11.1845C18.0559 11.1205 17.7956 11.108 17.5406 11.1477C19.0078 9.66648 19.75 8.19382 19.75 6.75007C19.75 4.6821 18.0867 3.00007 16.0422 3.00007C15.4997 2.99667 14.963 3.11205 14.4699 3.33811C13.9767 3.56418 13.539 3.89545 13.1875 4.30867C12.836 3.89545 12.3983 3.56418 11.9051 3.33811C11.412 3.11205 10.8753 2.99667 10.3328 3.00007C8.28828 3.00007 6.625 4.6821 6.625 6.75007C6.625 7.60945 6.87812 8.4446 7.41094 9.3282C6.97456 9.43875 6.57632 9.66555 6.25859 9.98445L4.49141 11.7501H2.25C1.91848 11.7501 1.60054 11.8818 1.36612 12.1162C1.1317 12.3506 1 12.6686 1 13.0001L1 16.1251C1 16.4566 1.1317 16.7745 1.36612 17.009C1.60054 17.2434 1.91848 17.3751 2.25 17.3751H10.375C10.4261 17.3751 10.477 17.3688 10.5266 17.3563L15.5266 16.1063C15.5584 16.0987 15.5895 16.0883 15.6195 16.0751L18.6562 14.7829L18.6906 14.7673C18.9825 14.6214 19.2324 14.4037 19.4168 14.1346C19.6013 13.8655 19.7142 13.5538 19.7449 13.229C19.7756 12.9042 19.7231 12.5769 19.5924 12.278C19.4617 11.9791 19.257 11.7183 18.9977 11.5204H18.9945ZM10.3328 4.25007C10.8169 4.24299 11.2921 4.38044 11.6976 4.64486C12.1031 4.90928 12.4206 5.28865 12.6094 5.73445C12.6565 5.84908 12.7366 5.94713 12.8395 6.01613C12.9424 6.08513 13.0636 6.12197 13.1875 6.12197C13.3114 6.12197 13.4326 6.08513 13.5355 6.01613C13.6384 5.94713 13.7185 5.84908 13.7656 5.73445C13.9544 5.28865 14.2719 4.90928 14.6774 4.64486C15.0829 4.38044 15.5581 4.24299 16.0422 4.25007C17.3742 4.25007 18.5 5.3946 18.5 6.75007C18.5 8.27429 17.2664 9.99851 14.9328 11.7423L14.0664 11.9415C14.1425 11.6202 14.1448 11.2859 14.0733 10.9636C14.0017 10.6413 13.8582 10.3394 13.6534 10.0805C13.4486 9.82156 13.1878 9.61235 12.8907 9.46854C12.5935 9.32473 12.2676 9.25004 11.9375 9.25007H8.86563C8.19141 8.3407 7.875 7.5407 7.875 6.75007C7.875 5.3946 9.00078 4.25007 10.3328 4.25007ZM2.25 13.0001H4.125V16.1251H2.25V13.0001ZM18.143 13.6415L15.1742 14.9055L10.2969 16.1251H5.375V12.6337L7.14297 10.8665C7.25862 10.7499 7.39629 10.6575 7.54798 10.5946C7.69967 10.5317 7.86235 10.4995 8.02656 10.5001H11.9375C12.1861 10.5001 12.4246 10.5988 12.6004 10.7747C12.7762 10.9505 12.875 11.1889 12.875 11.4376C12.875 11.6862 12.7762 11.9247 12.6004 12.1005C12.4246 12.2763 12.1861 12.3751 11.9375 12.3751H9.75C9.58424 12.3751 9.42527 12.4409 9.30806 12.5581C9.19085 12.6753 9.125 12.8343 9.125 13.0001C9.125 13.1658 9.19085 13.3248 9.30806 13.442C9.42527 13.5592 9.58424 13.6251 9.75 13.6251H12.25C12.297 13.6249 12.3439 13.6197 12.3898 13.6094L17.6242 12.4055L17.6484 12.3993C17.8082 12.3549 17.9788 12.3712 18.1273 12.4451C18.2758 12.5189 18.3917 12.645 18.4528 12.7992C18.5139 12.9534 18.5158 13.1247 18.4582 13.2802C18.4005 13.4357 18.2874 13.5644 18.1406 13.6415H18.143Z"
+              fill="white"
+            ></path>
+          </svg>
+        </a>
+        <header id="header" class="header fixed-top">
+          <nav class="navbar navbar-light navbar-expand-xl header-main">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./assets/img/logo.png"
+                  class="logo-desktop logo-nonsticky"
+                  alt="Food For Life Logo"
+                />
+                <img
+                  src="./assets/img/logo-white.png"
+                  class="logo-desktop logo-sticky"
+                  alt="Food For Life Logo"
+                />
+                <img
+                  src="./assets/img/favicon.png"
+                  class="logo-mobile"
+                  alt="Food For Life Logo"
+                  width="30"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="offcanvas offcanvas-end"
+                tabindex="-1"
+                id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel"
+              >
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                    Menu
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul
+                    class="navbar-nav navbar-nav--menu justify-content-end gap-2 flex-grow-1 pe-3"
+                  >
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Who We Are
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">History</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">About Us</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Our Team</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Our Impact</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Our Partners</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">Knowledge Center</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        What We Do
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Education</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#"
+                            >Health and Nutrition</a
+                          >
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Advocacy</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Our Impact</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Get Involved
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Volunteers</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Contact us</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Knowledge Center</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!--hero starts -->
+        <section
+          class="section section--hero section--hero--page"
+          style="background-image: url('./assets/img/page-img.jpg')"
+        >
+          <div class="container">
+            <div class="hero-content">
+              <div class="hero-subtitle">ABOUT US</div>
+              <h1 class="hero-title">Short Quote Realted to FFL</h1>
+              <p class="lead">
+                Food for Life Nepal (FFLN) is a non-governmental, non-profit
+                organization dedicated to the well-being of children in Nepal.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section imageTextSection">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-5">
+                <figure class="imageTextSection__figure">
+                  <img src="./assets/img/about-img.png" class=" " alt="" />
+                </figure>
+              </div>
+              <div class="col-md-7 mt-3 mt-md-0">
+                <div class="imageTextSection__subtitle">GLIMPSE OF US</div>
+                <h2 class="imageTextSection__title section-title">
+                  No child in Nepal shall be deprived of education because of
+                  hunger
+                </h2>
+                <ul class="iconList mt-4">
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <img src="./assets/img/mission.svg" alt="" />
+                      <h6 class="heading-5">Our Mission</h6>
+                    </div>
+                    <div class="iconList__copy">
+                      To serve 25,000 community school children with cooked hot
+                      and nutritious midday meals by 2032 AD.
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <img src="./assets/img/vision.svg" alt="" />
+                      <h6 class="heading-5">Our Vision</h6>
+                    </div>
+                    <div class="iconList__copy">
+                      No child in Nepal shall be deprived of education because
+                      of hunger.
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <h2 class="section-title heading-3 mb-0">CORE VALUES</h2>
+            </header>
+            <div class="coreValues">
+              <div class="coreValues__item">
+                <img src="./assets/img/Compassion.svg" alt="" />
+                <div class="heading-5">Compassion</div>
+              </div>
+              <div class="coreValues__item">
+                <img src="./assets/img/Sustanability.svg" alt="" />
+                <div class="heading-5">Sustainability</div>
+              </div>
+              <div class="coreValues__item">
+                <img src="./assets/img/Intrigrity.svg" alt="" />
+                <div class="heading-5">Integrity</div>
+              </div>
+              <div class="coreValues__item">
+                <img src="./assets/img/inclusion.svg" alt="" />
+                <div class="heading-5">Inclusion</div>
+              </div>
+              <div class="coreValues__item">
+                <img src="./assets/img/Nourishing.svg" alt="" />
+                <div class="heading-5">Nourishing Lives</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section">
+          <div class="container">
+            <header class="section-header">
+              <h2 class="section-title heading-2">OBJECTIVES</h2>
+            </header>
+
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4 order-1 order-lg-0">
+                <ul class="iconList iconList--2">
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/support.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To empower deprived children through a holistic
+                        approach, offering continuous support in education,
+                        clothing, training, healthcare, and other crucial areas.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To embed a vital mid-day meals program within the
+                        education system, ensuring access to nutritious food for
+                        school children.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To improve school retention and attendance for community
+                        school children by mitigating short-term classroom
+                        hunger.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To foster a culture of volunteerism and empower
+                        communities to support children’s basic needs.
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div
+                class="col-12 col-lg-4 align-self-center order-0 order-lg-0 mb-4 mb-lg-0"
+              >
+                <img src="./assets/img/objective-img.svg" alt="" />
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 order-1 order-lg-0">
+                <ul class="iconList iconList--2">
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/support.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To empower deprived children through a holistic
+                        approach, offering continuous support in education,
+                        clothing, training, healthcare, and other crucial areas.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To embed a vital mid-day meals program within the
+                        education system, ensuring access to nutritious food for
+                        school children.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To improve school retention and attendance for community
+                        school children by mitigating short-term classroom
+                        hunger.
+                      </div>
+                    </div>
+                  </li>
+                  <li class="iconList__item">
+                    <div class="iconList__header">
+                      <figure class="iconList__figure">
+                        <img src="./assets/img/food-icon.svg" alt="" />
+                      </figure>
+                      <div class="iconList__copy">
+                        To foster a culture of volunteerism and empower
+                        communities to support children’s basic needs.
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer" class="footer app-footer">
+        <div class="footer-wrapper">
+          <div class="footer-main">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-xs-6 col-lg-6">
+                  <aside class="widget me-lg-5">
+                    <a href="#" class="footer-logo">
+                      <img
+                        width="270"
+                        src="./assets/img/footer-logo.png"
+                        class="img-fluid footer-logo-img"
+                        alt=" "
+                      />
+                    </a>
+                    <p>
+                      Food for Life Nepal nourishes kids with daily meals, each
+                      made with the care of a mother.
+                    </p>
+                    <ul class="list-unstyled contact-links">
+                      <li>
+                        <img src="./assets/img/phone-icon.svg" alt="" />
+
+                        <div>+977 9815645856</div>
+                      </li>
+
+                      <li>
+                        <img src="./assets/img/location-icon.svg" alt="" />
+                        <div>Budhanilkantha, Kathmandu</div>
+                      </li>
+                      <li>
+                        <img src="./assets/img/map-icon.svg" alt="" />
+                        <div>
+                          Visit us <a href="#" target="_blank">(Map Link)</a>
+                        </div>
+                      </li>
+                    </ul>
+                    <ul class="list-unstyled footer-social-links">
+                      <li>
+                        <a href="#" title="Facbook" target="_blank">
+                          <img src="./assets/img/facebook.svg" alt="facebook" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="Instagram" target="_blank">
+                          <img
+                            src="./assets/img/instagram.svg"
+                            alt="instagram"
+                          />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="Twitter" target="_blank">
+                          <img src="./assets/img/linkedin.svg" alt="linkedIn" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" title="LinkedIn" target="_blank">
+                          <img src="./assets/img/youtube.svg" alt="youtube" />
+                        </a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
+                  <aside class="widget">
+                    <h4 class="widget-title">WHO WE ARE</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">History</a>
+                      </li>
+                      <li>
+                        <a href="#">About us</a>
+                      </li>
+                      <li>
+                        <a href="#">Our Impact</a>
+                      </li>
+                      <li>
+                        <a href="#">Knowledge Center</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
+                  <aside class="widget">
+                    <h4 class="widget-title">WHAT WE DO</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Health and Nutrition</a>
+                      </li>
+                      <li>
+                        <a href="#">Advocacy</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+                <div class="col-12 col-xs-6 col-lg-2 mt-4 mt-lg-0">
+                  <aside class="widget">
+                    <h4 class="widget-title">GET INVOLVED</h4>
+                    <ul class="menu">
+                      <li>
+                        <a href="#">Careers</a>
+                      </li>
+                      <li>
+                        <a href="#">Volunteers</a>
+                      </li>
+                      <li>
+                        <a href="#">Contact us</a>
+                      </li>
+                    </ul>
+                  </aside>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="./assets/img/footer-img.svg" class="w-100" alt="" />
+          <div class="footer-bottom">
+            <div
+              class="container py-3 border-top border-white d-flex gap-3 justify-content-center align-items-center flex-column flex-lg-row text-center"
+            >
+              <div class="copyright-text">
+                Copyright © 2024 Food For Life . All Rights Reserved | Developed
+                by <a href="#">Ikigai Tech</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/js/jquery-3.5.1.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+    <script src="./assets/js/jquery.waypoints.min.js"></script>
+    <script src="./assets/js/jquery.countup.min.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
