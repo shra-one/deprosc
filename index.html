@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
     <link
@@ -26,7 +26,7 @@
 
     <link rel="stylesheet" href="./assets/css/app.css" />
 
-    <title>Food For Life</title>
+    <title>DEPROSC Nepal</title>
   </head>
 
   <body>
@@ -47,25 +47,56 @@
             ></path>
           </svg>
         </a>
-        <header id="header" class="header fixed-top">
+        <div class="header-top">
+          <div class="container d-flex justify-content-between">
+            <ul class="list-unstyled social-links">
+              <li>Follow us :</li>
+              <li>
+                <a href="#" title="LinkedIn" target="_blank">
+                  <img src="./assets/img/youtube.svg" alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Facbook" target="_blank">
+                  <img src="./assets/img/facebook.svg" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Twitter" target="_blank">
+                  <img src="./assets/img/linkedin.svg" alt="linkedIn" />
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Instagram" target="_blank">
+                  <img src="./assets/img/twitter.svg" alt="instagram" />
+                </a>
+              </li>
+            </ul>
+            <ul class="list-unstyled contact-link">
+              <li>
+                <a href="tel:+977 9815645856">
+                  <img src="./assets/img/phone-icon-white.svg" alt="" />
+                  <span>+977 9815645856</span>
+                </a>
+              </li>
+
+              <li>
+                <a href="mailto:info@deproscnepal.com">
+                  <img src="./assets/img/EnvelopeSimple-white.svg" alt="" />
+                  <span>info@deproscnepal.com</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <header id="header" class="header sticky-top">
           <nav class="navbar navbar-light navbar-expand-xl header-main">
             <div class="container">
               <a class="navbar-brand" href="#">
                 <img
                   src="./assets/img/logo.png"
-                  class="logo-desktop logo-nonsticky"
+                  class=" "
                   alt="Food For Life Logo"
-                />
-                <img
-                  src="./assets/img/logo-white.png"
-                  class="logo-desktop logo-sticky"
-                  alt="Food For Life Logo"
-                />
-                <img
-                  src="./assets/img/favicon.png"
-                  class="logo-mobile"
-                  alt="Food For Life Logo"
-                  width="30"
                 />
               </a>
               <button
@@ -154,7 +185,7 @@
                       </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Our Impact</a>
+                      <a class="nav-link" href="#">Where We Work</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -165,7 +196,7 @@
                         data-bs-toggle="dropdown"
                         aria-expanded="false"
                       >
-                        Get Involved
+                        News & Stories
                       </a>
                       <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Careers</a></li>
@@ -178,8 +209,26 @@
                         </li>
                       </ul>
                     </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Knowledge Center</a>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Media Center
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Careers</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Volunteers</a>
+                        </li>
+
+                        <li>
+                          <a class="dropdown-item" href="#">Contact us</a>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
@@ -188,36 +237,22 @@
           </nav>
         </header>
         <!--hero starts -->
-        <section
-          class="section section--hero"
-          style="background-image: url('./assets/img/hero-img.jpg')"
-        >
-          <div class="container">
+        <section class="section section--hero">
+          <div class="hero-grid">
             <div class="hero-content">
-              <h1
-                class="hero-title"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-              >
-                PROMOTING EDUCATION THROUGH FOOD
+              <h1 class="hero-title">
+                Empowering Communities, Enriching Lives
               </h1>
-              <p
-                class="lead"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="100"
-              >
-                Food for Life Nepal (FFLN) is a non-governmental, non-profit,
-                non-religious organization working for the welfare of children
-                in Nepal.
+              <p class="lead">
+                DEPROSC-Nepal aims at empowering rural people for attaining
+                self-sustaining socio-economic uplift through a package of
+                policy research, action research and training. Its specific
+                objectives are to act as an intermediary between development
+                programs of government, NGOs, bi-lateral and multi-lateral
+                projects and local, to enhance the capabilities of Community
+                based organizations (CBOs).
               </p>
-              <div
-                class="d-grid d-md-flex justify-content-md-start hero-btn-group"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                data-aos-delay="200"
-                data-aos-offset="0"
-              >
+              <div class="d-flex justify-content-md-start hero-btn-group">
                 <a href="#" role="button" class="btn btn-primary hero-btn"
                   >Explore More
                   <svg
@@ -233,9 +268,46 @@
                     />
                   </svg>
                 </a>
-                <div class="hero-count">
-                  <span>10k +</span>
-                  Students served daily
+                <a href="#" class="btn btn-link">
+                  Watch Video
+                  <img src="./assets/img/play-icon.svg" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="hero-figure">
+              <img
+                src="./assets/img/upper leaf.svg"
+                alt=""
+                class="imgDecorator imgDecorator--TopLeft"
+              />
+
+              <img
+                src="./assets/img/herosectionimg 1.jpg"
+                class="hero-img"
+                alt=""
+              />
+              <div class="card card-hero">
+                <div class="card-body">
+                  <img src="./assets/img/up-arrow-circle.svg" alt="" />
+                  <div class="card-title">Total Donation</div>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar" style="width: 25%">
+                      <img
+                        src="./assets/img/caret-up.svg"
+                        alt=""
+                        class="caret"
+                      />
+                    </div>
+                  </div>
+                  <div class="value">$1120</div>
                 </div>
               </div>
             </div>
