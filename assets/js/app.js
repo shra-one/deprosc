@@ -119,6 +119,37 @@ $(function () {
     ],
   });
 
+  $(".js-teamcarousel").slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    arrows: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    centerMode: true,
+    centerPadding: "40",
+    prevArrow: `<div class="slick-prev"><svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M-3.68924e-07 8.44965C-3.5144e-07 8.84965 0.159999 9.22965 0.439999 9.50965L7.42 16.4496C7.7 16.7496 8.08 16.8896 8.46 16.8896C8.86 16.8896 9.24 16.7496 9.54 16.4496C10.12 15.8496 10.12 14.9096 9.52 14.3296L3.62 8.44965L9.52 2.56965C10.12 1.98965 10.12 1.02965 9.54 0.449649C8.94 -0.150351 8 -0.150351 7.42 0.449649L0.439999 7.38965C0.159999 7.66965 -3.86409e-07 8.04965 -3.68924e-07 8.44965Z" fill="#A3A3A3"/></svg></div>`,
+    nextArrow: `<div class="slick-next"><svg width="10" height="17" viewBox="0 0 10 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9.97266 8.44098C9.97266 8.04098 9.81266 7.66098 9.53266 7.38098L2.55266 0.440976C2.27266 0.140976 1.89266 0.00097621 1.51266 0.000976194C1.11266 0.000976176 0.732657 0.140976 0.432657 0.440976C-0.147343 1.04098 -0.147345 1.98098 0.452656 2.56098L6.35266 8.44098L0.452655 14.321C-0.147345 14.901 -0.147343 15.861 0.432657 16.441C1.03266 17.041 1.97266 17.041 2.55266 16.441L9.53266 9.50098C9.81266 9.22098 9.97266 8.84098 9.97266 8.44098Z" fill="#A3A3A3"/>
+      </svg>
+      </div>`,
+    // adaptiveHeight: true,
+    // adaptiveHeight: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          centerMode: true,
+          centerPadding: "10",
+        },
+      },
+    ],
+  });
+
   AOS.refresh();
   lightbox.option({
     resizeDuration: 200,
